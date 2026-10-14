@@ -5,7 +5,6 @@ def load_data(file_path):
     with open(file_path) as file:
         return json.load(file)
 
-print(load_data("data/observatory.json"))
 def count_nights(data):
     return len(data)
 
@@ -17,6 +16,7 @@ def get_avg_seeing(data, nights: List[int]):
         key = str (night)   #ATTENTION STR NOT A DICT KEY !!
         if key in data:     #ignore nights that dont exist
             average+=data[key]["SEEING"]["av"]
+            count += 1
     if count==0:            #AVoid dividing by 0 !
         return None
     return average/count
@@ -24,11 +24,12 @@ def get_avg_seeing(data, nights: List[int]):
 def get_extreme_seeing(data):
     min,max=None
     night_min, night_max= 0,0
+    
     for night in data:
-        if night["SEEING"]["mn"] < min:
+        if data[night]["SEEING"]["mn"] < min:
             min=night["SEEING"]["mn"]
             night_min= int (night)
-        if night["SEEING"]["mx"] < max:
+        if data[night]["SEEING"]["mx"] > max:
             max=night["SEEING"]["mx"]
             night_max= int (night)
             
@@ -46,10 +47,10 @@ def count_by_moon_phase(data):
 def get_top_targets(data, top_n=3):
     out={}
     for night in data:
+        list=[]
         for target in data[night]["TARGETS"]:
-            list=[]
             if target != "longest":
-                list.append(target, data[night]["TARGETS"][target]["minutes"])
+                list.append((target, data[night]["TARGETS"][target]["minutes"]))    # .append() only takes 1 argument, so append a TUPLE !
         list.sort(key=lambda t: t[1], reverse=True)
         out[night]=list[:top_n]         #slice the first top n elements
     return out
@@ -61,8 +62,8 @@ def get_hours_by_type(data):
         for target in data[night]["TARGETS"]:
             if target=="longest":
                 continue                        # CONTINUE is cool to ignore that iteration of the loop
-            if target["type"] in out:
-                out[target["type"]] += data[night]["TARGETS"][target]["minutes"]/60
+            if data[night]["TARGETS"][target]["type"] in out:
+                out[data[night]["TARGETS"][target]["type"]] += data[night]["TARGETS"][target]["minutes"]/60
             else:
-                out[target["type"]] = data[night]["TARGETS"][target]["minutes"]/60
+                out[data[night]["TARGETS"][target]["type"]] = data[night]["TARGETS"][target]["minutes"]/60
     return out
