@@ -20,7 +20,7 @@ print(x)
 
 -   [ ] [4]
 -   [ ] [1, 2, 3]
--   [ ] [1, 2, 3, 4]
+-   [X] [1, 2, 3, 4]
 -   [ ] Error
 
 ## Question 2
@@ -30,14 +30,14 @@ A function must return a sorted copy of its list parameter `l` and leave `l` unc
 -   [ ] return l.sorted()
 -   [ ] l.sort()
 return l
--   [ ] return sorted(l)
+-   [X] return sorted(l)
 -   [ ] return l.sort()
 
 ## Question 3
 
 `data` is a dict loaded from JSON: `{"7": {"v": 1}, "8": {"v": 2}}`. What is `x` in `for x in data:`?
 
--   [ ] "7"
+-   [X] "7"
 -   [ ] 0
 -   [ ] {"v": 1}
 -   [ ] ("7", {"v": 1})
@@ -47,7 +47,7 @@ return l
 In a class, `__lt__(self, other)` must compare the lengths given by the method `length()`. Which line is right?
 
 -   [ ] return self.length(other) < self.length()
--   [ ] return self.length() < other.length()
+-   [X] return self.length() < other.length()
 -   [ ] return self < other
 -   [ ] return length(self) < length(other)
 
@@ -55,7 +55,7 @@ In a class, `__lt__(self, other)` must compare the lengths given by the method `
 
 Which constructor stores a COPY of the list `items`?
 
--   [ ] self.items = items
+-   [X] self.items = items
 -   [ ] self.items = list(items)
 -   [ ] items = self.items
 -   [ ] self.items == items
@@ -75,7 +75,7 @@ print(f(0))
 
 -   [ ] Error
 -   [ ] [0]
--   [ ] 0
+-   [X] 0
 -   [ ] 1
 
 ## Question 7
@@ -83,7 +83,7 @@ print(f(0))
 Time complexity of `stirling2(n, k)` with a cache whose keys are `(n, k)` (one addition and one multiplication per key)?
 
 -   [ ] O(2^n)
--   [ ] O(n + k)
+-   [X] O(n + k)
 -   [ ] O(log n)
 -   [ ] O(n * k)
 
@@ -111,7 +111,7 @@ def ways_iter(n):
 -   [ ] None
 -   [ ] A sorted copy
 -   [ ] An empty list
--   [ ] The sorted list
+-   [X] The sorted list
 
 ## Question 10
 
@@ -120,4 +120,4 @@ Which statement about this call is true?  `get_avg(data, [1, 2, 3])` where keys 
 -   [ ] Raise a KeyError
 -   [ ] Return None
 -   [ ] Divide the total by 3
--   [ ] Divide the total by 2
+-   [X] Divide the total by 2

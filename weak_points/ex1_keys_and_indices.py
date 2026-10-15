@@ -11,12 +11,20 @@ def indices_of(l, value):
     """All the INDICES i such that l[i] == value, in increasing order.
     indices_of([5, 7, 5, 5], 5) -> [0, 2, 3]       indices_of([1, 2], 9) -> []
     """
-    raise NotImplementedError
+    out=[]
+    for i in range(len(l)) :
+        if l[i] == value:
+            out.append(i)
+    return out
+            
 
 
 def dot_product(a, b):
     """Sum of a[i] * b[i] for two lists of the SAME length. dot_product([1, 2, 3], [4, 5, 6]) -> 32"""
-    raise NotImplementedError
+    out=0
+    for i in range(len(a)):
+        out += a[i]*b[i]
+    return out
 
 
 def last_nonzero_index(l):
@@ -24,14 +32,21 @@ def last_nonzero_index(l):
     last_nonzero_index([1, 2, 0, 0]) -> 1       last_nonzero_index([0, 0]) -> -1     last_nonzero_index([]) -> -1
     Hint: do you need to start from the beginning or from the end?
     """
-    raise NotImplementedError
-
+    out=-1
+    for i in range(len(l)):
+        if l[i] != 0:
+            out=i
+    return out
 
 def evaluate(coeffs, x):
     """Value of coeffs[0] + coeffs[1]*x + coeffs[2]*x**2 + ...   evaluate([3, 2, 5], 2) -> 27
     (The mock exam B version summed x**i and forgot the coefficient.)
     """
-    raise NotImplementedError
+    out=0
+    for i in range(len(coeffs)):
+        out+= coeffs[i]*(x**i)
+    return out
+        
 
 
 def pairs_with_gap(l, gap):
