@@ -20,6 +20,11 @@ manipulation (`insight`). Both mock exams below copy that format, with new subje
 | `quiz/quiz_practice.md` | 20 questions in the exam format. | 15 min |
 | `exam_A/` | Mock exam A: `Vector2D` class / Catalan numbers (recursion + memo) / observatory JSON. Like the 2025 exam. | 1 h |
 | `exam_B/` | Mock exam B: `Polynomial` / grids + strings recursion / exoplanets CSV + your own sort / trees. A bit harder. | 1 h 15 |
+| `WEAK_POINTS.md` | Diagnosis of your mistakes in mock exams A, B and the training exam, with a plan. **Read second.** | 10 min |
+| `weak_points/` | 6 exercise files (68 functions) aimed at those mistakes. Check with `python3 weak_points/run_checks.py`. | 3-4 h |
+| `snippets/` | Tested example code to reuse: recursion/memo/iteration, JSON, CSV, trees, classes, recipes, complexity. Index in `snippets/README.md`. | |
+| `quiz/quiz_extra.md` | 36 more quiz questions (answers + explanations in `solutions/quiz_extra_answers.md`). | 35 min |
+| `solutions/training_quiz_answers.md` | Answers of the training-exam quiz + summary of the real-exam instructions. | |
 | `solutions/` | All the solutions, commented with the reasoning. **Do not open before trying.** | |
 
 ## Suggested plan (about 2 weeks, 1 h per day)
