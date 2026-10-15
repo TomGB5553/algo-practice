@@ -16,8 +16,8 @@ def ways_memo(n: int, cache=None) -> int:
         return 1
     if n in cache:
         return cache[n]
-    cache[n] = ways_memo(n-1) + ways_memo(n-2) + ways_memo(n-3)     #ATTENTION change function name to new
-    return cache[n] 
+    cache[n] = ways_memo(n-1, cache) + ways_memo(n-2, cache) + ways_memo(n-3, cache)     #ATTENTION change function name to new
+    return cache[n]                                                                        # ne pas oublier le cache dans args
 
 def ways_iter(n: int) -> int:
     out=[1]

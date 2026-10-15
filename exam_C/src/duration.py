@@ -2,17 +2,15 @@
 class Duration():
     
     def __init__(self, hours, minutes):
-        if minutes > 60:
-            hours += 1
-            minutes = minutes - 60
-        self.hours=hours
-        self.minutes=minutes
+        total = 60 * hours + minutes
+        self.hours= total // 60
+        self.minutes=total % 60
 
     def total_minutes(self):
         return self.hours*60 + self.minutes
     
     def __repr__(self):
-        return f"{self.hours}h{self.minutes}"
+        return f"{self.hours}h{self.minutes:02d}"
     
     def __add__(self, other):
         return Duration(self.hours+other.hours, self.minutes+other.minutes)
@@ -35,7 +33,7 @@ class Playlist():
         return total
     
     def longuest(self):
-        if len(self)==0:
+        if len(self.durations)==0:
             return None
         
         maxdur=self.durations[0]        #assigner le premier element de la liste
