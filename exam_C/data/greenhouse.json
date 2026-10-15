@@ -1,0 +1,846 @@
+{
+  "301": {
+    "TEMP": {
+      "av": 13.67,
+      "ct": 800,
+      "mn": 11.1,
+      "mx": 21.7
+    },
+    "HUMIDITY": {
+      "av": 58.4,
+      "ct": 484,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "mint": {
+        "family": "herb",
+        "height_cm": 146
+      },
+      "thyme": {
+        "family": "herb",
+        "height_cm": 99
+      },
+      "tallest": {
+        "name": "mint",
+        "height_cm": 146
+      }
+    },
+    "Weather": "windy",
+    "Gardener": "Maya"
+  },
+  "302": {
+    "TEMP": {
+      "av": 13.35,
+      "ct": 274,
+      "mn": 5.0,
+      "mx": 24.9
+    },
+    "HUMIDITY": {
+      "av": 70.3,
+      "ct": 776,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "cactus": {
+        "family": "succulent",
+        "height_cm": 119
+      },
+      "lettuce": {
+        "family": "vegetable",
+        "height_cm": 141
+      },
+      "orchid": {
+        "family": "flower",
+        "height_cm": 121
+      },
+      "tallest": {
+        "name": "lettuce",
+        "height_cm": 141
+      }
+    },
+    "Weather": "windy",
+    "Gardener": "Maya"
+  },
+  "303": {
+    "TEMP": {
+      "av": 16.15,
+      "ct": 743,
+      "mn": 12.2,
+      "mx": 24.8
+    },
+    "HUMIDITY": {
+      "av": 64.0,
+      "ct": 364,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "lettuce": {
+        "family": "vegetable",
+        "height_cm": 67
+      },
+      "fern": {
+        "family": "foliage",
+        "height_cm": 93
+      },
+      "tallest": {
+        "name": "fern",
+        "height_cm": 93
+      }
+    },
+    "Weather": "rainy",
+    "Gardener": "Leo"
+  },
+  "305": {
+    "TEMP": {
+      "av": 12.1,
+      "ct": 838,
+      "mn": 10.1,
+      "mx": 20.3
+    },
+    "HUMIDITY": {
+      "av": 61.9,
+      "ct": 803,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "lettuce": {
+        "family": "vegetable",
+        "height_cm": 75
+      },
+      "mint": {
+        "family": "herb",
+        "height_cm": 144
+      },
+      "orchid": {
+        "family": "flower",
+        "height_cm": 149
+      },
+      "thyme": {
+        "family": "herb",
+        "height_cm": 42
+      },
+      "tallest": {
+        "name": "orchid",
+        "height_cm": 149
+      }
+    },
+    "Weather": "cloudy",
+    "Gardener": "Maya"
+  },
+  "306": {
+    "TEMP": {
+      "av": 12.09,
+      "ct": 418,
+      "mn": 6.2,
+      "mx": 29.0
+    },
+    "HUMIDITY": {
+      "av": 45.7,
+      "ct": 654,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "lettuce": {
+        "family": "vegetable",
+        "height_cm": 134
+      },
+      "orchid": {
+        "family": "flower",
+        "height_cm": 151
+      },
+      "tomato": {
+        "family": "vegetable",
+        "height_cm": 109
+      },
+      "pepper": {
+        "family": "vegetable",
+        "height_cm": 13
+      },
+      "basil": {
+        "family": "herb",
+        "height_cm": 57
+      },
+      "tallest": {
+        "name": "orchid",
+        "height_cm": 151
+      }
+    },
+    "Weather": "cloudy",
+    "Gardener": "Leo"
+  },
+  "307": {
+    "TEMP": {
+      "av": 20.37,
+      "ct": 376,
+      "mn": 10.7,
+      "mx": 22.9
+    },
+    "HUMIDITY": {
+      "av": 74.3,
+      "ct": 444,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "mint": {
+        "family": "herb",
+        "height_cm": 116
+      },
+      "fern": {
+        "family": "foliage",
+        "height_cm": 55
+      },
+      "tallest": {
+        "name": "mint",
+        "height_cm": 116
+      }
+    },
+    "Weather": "rainy",
+    "Gardener": "Leo"
+  },
+  "308": {
+    "TEMP": {
+      "av": 26.83,
+      "ct": 434,
+      "mn": 4.0,
+      "mx": 30.0
+    },
+    "HUMIDITY": {
+      "av": 64.2,
+      "ct": 661,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "cactus": {
+        "family": "succulent",
+        "height_cm": 98
+      },
+      "ivy": {
+        "family": "foliage",
+        "height_cm": 43
+      },
+      "lettuce": {
+        "family": "vegetable",
+        "height_cm": 106
+      },
+      "tallest": {
+        "name": "lettuce",
+        "height_cm": 106
+      }
+    },
+    "Weather": "cloudy",
+    "Gardener": "Iris"
+  },
+  "311": {
+    "TEMP": {
+      "av": 15.1,
+      "ct": 561,
+      "mn": 8.7,
+      "mx": 32.0
+    },
+    "HUMIDITY": {
+      "av": 69.0,
+      "ct": 728,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "tomato": {
+        "family": "vegetable",
+        "height_cm": 85
+      },
+      "ivy": {
+        "family": "foliage",
+        "height_cm": 155
+      },
+      "rose": {
+        "family": "flower",
+        "height_cm": 147
+      },
+      "tallest": {
+        "name": "ivy",
+        "height_cm": 155
+      }
+    },
+    "Weather": "rainy",
+    "Gardener": "Leo"
+  },
+  "312": {
+    "TEMP": {
+      "av": 17.25,
+      "ct": 843,
+      "mn": 8.8,
+      "mx": 32.3
+    },
+    "HUMIDITY": {
+      "av": 78.4,
+      "ct": 816,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "lettuce": {
+        "family": "vegetable",
+        "height_cm": 134
+      },
+      "pepper": {
+        "family": "vegetable",
+        "height_cm": 121
+      },
+      "mint": {
+        "family": "herb",
+        "height_cm": 114
+      },
+      "thyme": {
+        "family": "herb",
+        "height_cm": 111
+      },
+      "ivy": {
+        "family": "foliage",
+        "height_cm": 89
+      },
+      "tallest": {
+        "name": "lettuce",
+        "height_cm": 134
+      }
+    },
+    "Weather": "cloudy",
+    "Gardener": "Leo"
+  },
+  "313": {
+    "TEMP": {
+      "av": 21.6,
+      "ct": 726,
+      "mn": 11.2,
+      "mx": 28.1
+    },
+    "HUMIDITY": {
+      "av": 65.1,
+      "ct": 304,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "lettuce": {
+        "family": "vegetable",
+        "height_cm": 42
+      },
+      "tomato": {
+        "family": "vegetable",
+        "height_cm": 131
+      },
+      "tallest": {
+        "name": "tomato",
+        "height_cm": 131
+      }
+    },
+    "Weather": "cloudy",
+    "Gardener": "Leo"
+  },
+  "314": {
+    "TEMP": {
+      "av": 12.08,
+      "ct": 468,
+      "mn": 6.9,
+      "mx": 25.0
+    },
+    "HUMIDITY": {
+      "av": 64.3,
+      "ct": 397,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "fern": {
+        "family": "foliage",
+        "height_cm": 156
+      },
+      "basil": {
+        "family": "herb",
+        "height_cm": 157
+      },
+      "ivy": {
+        "family": "foliage",
+        "height_cm": 91
+      },
+      "mint": {
+        "family": "herb",
+        "height_cm": 81
+      },
+      "tallest": {
+        "name": "basil",
+        "height_cm": 157
+      }
+    },
+    "Weather": "sunny",
+    "Gardener": "Maya"
+  },
+  "315": {
+    "TEMP": {
+      "av": 14.99,
+      "ct": 744,
+      "mn": 4.8,
+      "mx": 31.7
+    },
+    "HUMIDITY": {
+      "av": 69.7,
+      "ct": 797,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "orchid": {
+        "family": "flower",
+        "height_cm": 86
+      },
+      "fern": {
+        "family": "foliage",
+        "height_cm": 55
+      },
+      "rose": {
+        "family": "flower",
+        "height_cm": 75
+      },
+      "pepper": {
+        "family": "vegetable",
+        "height_cm": 122
+      },
+      "cactus": {
+        "family": "succulent",
+        "height_cm": 18
+      },
+      "tallest": {
+        "name": "pepper",
+        "height_cm": 122
+      }
+    },
+    "Weather": "windy",
+    "Gardener": "Maya"
+  },
+  "316": {
+    "TEMP": {
+      "av": 18.15,
+      "ct": 290,
+      "mn": 12.1,
+      "mx": 25.8
+    },
+    "HUMIDITY": {
+      "av": 75.1,
+      "ct": 494,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "cactus": {
+        "family": "succulent",
+        "height_cm": 105
+      },
+      "ivy": {
+        "family": "foliage",
+        "height_cm": 107
+      },
+      "mint": {
+        "family": "herb",
+        "height_cm": 94
+      },
+      "tallest": {
+        "name": "ivy",
+        "height_cm": 107
+      }
+    },
+    "Weather": "sunny",
+    "Gardener": "Iris"
+  },
+  "318": {
+    "TEMP": {
+      "av": 20.46,
+      "ct": 332,
+      "mn": 9.1,
+      "mx": 24.5
+    },
+    "HUMIDITY": {
+      "av": 61.8,
+      "ct": 670,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "tulip": {
+        "family": "flower",
+        "height_cm": 34
+      },
+      "orchid": {
+        "family": "flower",
+        "height_cm": 91
+      },
+      "lettuce": {
+        "family": "vegetable",
+        "height_cm": 98
+      },
+      "mint": {
+        "family": "herb",
+        "height_cm": 137
+      },
+      "pepper": {
+        "family": "vegetable",
+        "height_cm": 12
+      },
+      "tallest": {
+        "name": "mint",
+        "height_cm": 137
+      }
+    },
+    "Weather": "rainy",
+    "Gardener": "Iris"
+  },
+  "319": {
+    "TEMP": {
+      "av": 7.99,
+      "ct": 884,
+      "mn": 5.2,
+      "mx": 26.6
+    },
+    "HUMIDITY": {
+      "av": 40.3,
+      "ct": 511,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "pepper": {
+        "family": "vegetable",
+        "height_cm": 5
+      },
+      "cactus": {
+        "family": "succulent",
+        "height_cm": 86
+      },
+      "mint": {
+        "family": "herb",
+        "height_cm": 81
+      },
+      "tulip": {
+        "family": "flower",
+        "height_cm": 70
+      },
+      "tallest": {
+        "name": "cactus",
+        "height_cm": 86
+      }
+    },
+    "Weather": "rainy",
+    "Gardener": "Maya"
+  },
+  "320": {
+    "TEMP": {
+      "av": 12.89,
+      "ct": 874,
+      "mn": 4.5,
+      "mx": 32.6
+    },
+    "HUMIDITY": {
+      "av": 59.9,
+      "ct": 687,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "basil": {
+        "family": "herb",
+        "height_cm": 158
+      },
+      "thyme": {
+        "family": "herb",
+        "height_cm": 95
+      },
+      "lettuce": {
+        "family": "vegetable",
+        "height_cm": 39
+      },
+      "orchid": {
+        "family": "flower",
+        "height_cm": 44
+      },
+      "fern": {
+        "family": "foliage",
+        "height_cm": 65
+      },
+      "tallest": {
+        "name": "basil",
+        "height_cm": 158
+      }
+    },
+    "Weather": "windy",
+    "Gardener": "Iris"
+  },
+  "321": {
+    "TEMP": {
+      "av": 9.66,
+      "ct": 484,
+      "mn": 5.5,
+      "mx": 27.6
+    },
+    "HUMIDITY": {
+      "av": 72.9,
+      "ct": 444,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "tomato": {
+        "family": "vegetable",
+        "height_cm": 111
+      },
+      "fern": {
+        "family": "foliage",
+        "height_cm": 76
+      },
+      "mint": {
+        "family": "herb",
+        "height_cm": 42
+      },
+      "tallest": {
+        "name": "tomato",
+        "height_cm": 111
+      }
+    },
+    "Weather": "sunny",
+    "Gardener": "Leo"
+  },
+  "323": {
+    "TEMP": {
+      "av": 18.35,
+      "ct": 325,
+      "mn": 6.7,
+      "mx": 21.4
+    },
+    "HUMIDITY": {
+      "av": 52.9,
+      "ct": 701,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "rose": {
+        "family": "flower",
+        "height_cm": 58
+      },
+      "ivy": {
+        "family": "foliage",
+        "height_cm": 16
+      },
+      "tomato": {
+        "family": "vegetable",
+        "height_cm": 136
+      },
+      "tallest": {
+        "name": "tomato",
+        "height_cm": 136
+      }
+    },
+    "Weather": "rainy",
+    "Gardener": "Leo"
+  },
+  "324": {
+    "TEMP": {
+      "av": 15.99,
+      "ct": 351,
+      "mn": 11.7,
+      "mx": 26.9
+    },
+    "HUMIDITY": {
+      "av": 50.7,
+      "ct": 846,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "basil": {
+        "family": "herb",
+        "height_cm": 39
+      },
+      "pepper": {
+        "family": "vegetable",
+        "height_cm": 10
+      },
+      "tallest": {
+        "name": "basil",
+        "height_cm": 39
+      }
+    },
+    "Weather": "sunny",
+    "Gardener": "Iris"
+  },
+  "325": {
+    "TEMP": {
+      "av": 14.58,
+      "ct": 832,
+      "mn": 11.5,
+      "mx": 22.5
+    },
+    "HUMIDITY": {
+      "av": 63.4,
+      "ct": 352,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "thyme": {
+        "family": "herb",
+        "height_cm": 40
+      },
+      "basil": {
+        "family": "herb",
+        "height_cm": 59
+      },
+      "tallest": {
+        "name": "basil",
+        "height_cm": 59
+      }
+    },
+    "Weather": "sunny",
+    "Gardener": "Maya"
+  },
+  "327": {
+    "TEMP": {
+      "av": 17.53,
+      "ct": 265,
+      "mn": 9.2,
+      "mx": 22.6
+    },
+    "HUMIDITY": {
+      "av": 71.0,
+      "ct": 408,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "tomato": {
+        "family": "vegetable",
+        "height_cm": 147
+      },
+      "ivy": {
+        "family": "foliage",
+        "height_cm": 44
+      },
+      "tallest": {
+        "name": "tomato",
+        "height_cm": 147
+      }
+    },
+    "Weather": "rainy",
+    "Gardener": "Iris"
+  },
+  "328": {
+    "TEMP": {
+      "av": 14.58,
+      "ct": 511,
+      "mn": 4.6,
+      "mx": 21.5
+    },
+    "HUMIDITY": {
+      "av": 61.6,
+      "ct": 513,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "fern": {
+        "family": "foliage",
+        "height_cm": 47
+      },
+      "rose": {
+        "family": "flower",
+        "height_cm": 88
+      },
+      "tulip": {
+        "family": "flower",
+        "height_cm": 147
+      },
+      "tomato": {
+        "family": "vegetable",
+        "height_cm": 54
+      },
+      "tallest": {
+        "name": "tulip",
+        "height_cm": 147
+      }
+    },
+    "Weather": "rainy",
+    "Gardener": "Maya"
+  },
+  "329": {
+    "TEMP": {
+      "av": 16.17,
+      "ct": 321,
+      "mn": 4.3,
+      "mx": 23.1
+    },
+    "HUMIDITY": {
+      "av": 65.4,
+      "ct": 248,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "fern": {
+        "family": "foliage",
+        "height_cm": 116
+      },
+      "tulip": {
+        "family": "flower",
+        "height_cm": 13
+      },
+      "lettuce": {
+        "family": "vegetable",
+        "height_cm": 50
+      },
+      "tallest": {
+        "name": "fern",
+        "height_cm": 116
+      }
+    },
+    "Weather": "rainy",
+    "Gardener": "Leo"
+  },
+  "330": {
+    "TEMP": {
+      "av": 18.66,
+      "ct": 824,
+      "mn": 10.5,
+      "mx": 27.7
+    },
+    "HUMIDITY": {
+      "av": 65.4,
+      "ct": 605,
+      "mn": 30.5,
+      "mx": 90.2
+    },
+    "PLANTS": {
+      "fern": {
+        "family": "foliage",
+        "height_cm": 126
+      },
+      "orchid": {
+        "family": "flower",
+        "height_cm": 134
+      },
+      "tomato": {
+        "family": "vegetable",
+        "height_cm": 110
+      },
+      "tallest": {
+        "name": "orchid",
+        "height_cm": 134
+      }
+    },
+    "Weather": "rainy",
+    "Gardener": "Leo"
+  }
+}

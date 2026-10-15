@@ -14,6 +14,10 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 JOBS = [
     ("exam_A", ROOT / "exam_A", [(ROOT / "solutions/exam_A/src", "src")], "."),
     ("exam_B", ROOT / "exam_B", [(ROOT / "solutions/exam_B/src", "src")], "."),
+    ("exam_C", ROOT / "exam_C", [(ROOT / "solutions/exam_C/src", "src"),
+                                 (ROOT / "solutions/exam_C/main_duration.py", "main_duration.py"),
+                                 (ROOT / "solutions/exam_C/main_stairs.py", "main_stairs.py"),
+                                 (ROOT / "solutions/exam_C/main_greenhouse.py", "main_greenhouse.py")], "."),
     ("drills bugs", ROOT, [(ROOT / "solutions/drills/find_the_bug_fixed.py", "drills/find_the_bug.py")], "drills/test_find_the_bug.py"),
     ("drills scratch", ROOT, [(ROOT / "solutions/drills/write_from_scratch_solutions.py", "drills/write_from_scratch.py")], "drills/test_write_from_scratch.py"),
 ]

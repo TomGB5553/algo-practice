@@ -25,6 +25,7 @@ manipulation (`insight`). Both mock exams below copy that format, with new subje
 | `snippets/` | Tested example code to reuse: recursion/memo/iteration, JSON, CSV, trees, classes, recipes, complexity. Index in `snippets/README.md`. | |
 | `quiz/quiz_extra.md` | 36 more quiz questions (answers + explanations in `solutions/quiz_extra_answers.md`). | 35 min |
 | `solutions/training_quiz_answers.md` | Answers of the training-exam quiz + summary of the real-exam instructions. | |
+| `exam_C/` | Mock exam C, built on YOUR weak points: `Duration`/`Playlist` classes / stairs + Stirling (recursion, 2-argument memo) / greenhouse JSON. Same format as the 2025 exam, with a quiz (`quiz.md`). | 1 h |
 | `solutions/` | All the solutions, commented with the reasoning. **Do not open before trying.** | |
 
 ## Suggested plan (about 2 weeks, 1 h per day)
@@ -35,6 +36,7 @@ manipulation (`insight`). Both mock exams below copy that format, with new subje
 4. Day 8: **mock exam A** under exam conditions (timer, only your projects/notebooks/A4).
 5. Days 9-11: redo what failed. Rewrite from memory the functions you needed to look up.
 6. Day 12: **mock exam B** under exam conditions.
+   Then work through `WEAK_POINTS.md` and `weak_points/`, and finish with **mock exam C** (built on your weak points).
 7. Last days: re-read your own corrected project files and `SNIPPET_MAP.md`; redo the drills that you failed.
 
 ## How to run the tests
