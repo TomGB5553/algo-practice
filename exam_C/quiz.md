@@ -55,8 +55,8 @@ In a class, `__lt__(self, other)` must compare the lengths given by the method `
 
 Which constructor stores a COPY of the list `items`?
 
--   [X] self.items = items
--   [ ] self.items = list(items)
+-   [ ] self.items = items
+-   [x] self.items = list(items)
 -   [ ] items = self.items
 -   [ ] self.items == items
 
@@ -73,9 +73,9 @@ def f(n, cache=None):
 print(f(0))
 ```
 
--   [ ] Error
+-   [X] Error
 -   [ ] [0]
--   [X] 0
+-   [ ] 0
 -   [ ] 1
 
 ## Question 7
@@ -83,9 +83,9 @@ print(f(0))
 Time complexity of `stirling2(n, k)` with a cache whose keys are `(n, k)` (one addition and one multiplication per key)?
 
 -   [ ] O(2^n)
--   [X] O(n + k)
+-   [ ] O(n + k)
 -   [ ] O(log n)
--   [ ] O(n * k)
+-   [X] O(n * k)
 
 ## Question 8
 
@@ -100,7 +100,7 @@ def ways_iter(n):
 ```
 
 -   [ ] 3
--   [ ] IndexError
+-   [X] IndexError
 -   [ ] 4
 -   [ ] 1
 
@@ -108,10 +108,10 @@ def ways_iter(n):
 
 `planets_between` ends with `return names.sort()`. What does the caller receive?
 
--   [ ] None
+-   [X] None
 -   [ ] A sorted copy
 -   [ ] An empty list
--   [X] The sorted list
+-   [ ] The sorted list
 
 ## Question 10
 
